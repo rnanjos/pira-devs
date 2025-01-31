@@ -1,7 +1,7 @@
 {
   "name": "pira-devs",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "/pages/home/index.js",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.8.4",
