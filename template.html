@@ -1,0 +1,60 @@
+<header class="header-home">
+  <div class="container">
+    <h1>
+      <div><small>Piracicaba</small></div>
+      <strong>Developers</strong>
+    </h1>
+    <div class="description">
+      <p>
+        Confira a lista de <strong id="totalUsers"></strong> desenvolvedorxs
+        cadastrados no GitHub na localização de <strong>Piracicaba</strong>.
+      </p>
+      <p>
+        Este projeto visa facilitar o encontro de desenvolvedorxs da região.
+        Atualize o seu perfil e participe também!
+      </p>
+      <p>
+        Para saber mais detalhes sobre o projeto:
+      </p>
+      <a href="https://github.com/vinicoder/pira-devs" target="_blank"
+        ><i class="fab fa-github"></i> acesse o documento</a
+      >
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <div class="navbar">
+      <div class="form-control select">
+        <select id="sort">
+          <option value="joined" selected>Ordem por data de cadastro</option>
+          <option value="followers">Ordem por nº de Seguidores</option>
+          <option value="repositories">Ordem por nº de Repositórios</option>
+        </select>
+        <label for="sort" class="button"
+          ><i class="fas fa-arrow-down"></i
+        ></label>
+      </div>
+      <form class="form-control input" id="search">
+        <input
+          id="search-query"
+          type="search"
+          placeholder="Pesquisar por users, linguagens, etc."
+        />
+        <button type="submit"><i class="fas fa-search"></i></button>
+      </form>
+    </div>
+    <div class="member-list" id="listUsers"></div>
+    <div class="member-list-loading show" id="loaderListUsers">
+      <i class="fas fa-circle-notch fa-spin"></i> <span>Loading...</span>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    Desenvolvido por
+    <a href="https://homecode.com.br" target="_blank">Homecode</a>
+  </div>
+</footer>
