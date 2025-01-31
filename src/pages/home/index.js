@@ -1,4 +1,4 @@
-import api from '../../config/api';
+import api from '../src/config/api';
 import { viewport, $, Template } from '../../helpers';
 
 export default class Home extends Template {
